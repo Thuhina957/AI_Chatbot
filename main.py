@@ -1,6 +1,7 @@
 from openai import OpenAI 
 import os
 
+#Api key add using os
 api_key = os.getenv("API_KEY")
 
 if not api_key:
